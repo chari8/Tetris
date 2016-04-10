@@ -234,3 +234,7 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+/Tetris/Tetris.VC.db
+/Tetris/Tetris.sln
+/Tetris/Tetris/Tetris.vcxproj.filters
+/Tetris/Tetris/Tetris.vcxproj
