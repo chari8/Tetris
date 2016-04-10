@@ -4,9 +4,10 @@
 #include <time.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include <conio.h>
+#include <ncurses.h>
 #include <string.h>
 #include <windows.h>
+//#include <conio.h>
 
 #define FIELD_WIDTH 12
 #define FIELD_HEIGHT 22
@@ -422,8 +423,9 @@ int main() {
 
 
 	while (1) {
-		if (_kbhit()) {
-			switch (_getch()) {
+		
+		//if (_kbhit()) {
+			switch (getch()) {
 			case 0x1b: //hit esc to exit
 				return 0;
 			case 0x20: //hit space to restart
@@ -469,7 +471,7 @@ int main() {
 					minoAngle))
 					store();
 				break;
-			}
+			//}
 			display();
 		}
 		if (t != time(NULL)) {
