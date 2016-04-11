@@ -2,7 +2,7 @@
 <body>
 <h1>Tetris v1.0</h1>
 <h1>How to play?</h1>
-<P>Simply click the icon and start! When you want to quit, hit ESC.</p>
+<P>After download and unzip, simply click the <b>.exe</b> file and start! When you want to quit, hit ESC.</p>
 <h1>KeyBindings</h1>
 <p>Based on <a href="http://www.vim.org/"><b>VIM</b></a>.</p>
 <table>
